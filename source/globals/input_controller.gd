@@ -59,6 +59,10 @@ func _ready() -> void:
 	Input.set_custom_mouse_cursor(preload("uid://c4rkp4jj27c0c"), Input.CURSOR_POINTING_HAND, Vector2(15, 7))
 	Input.set_custom_mouse_cursor(preload("uid://kcwun8id06o2"), Input.CURSOR_ARROW, Vector2(12.5, 5))
 
+func _exit_tree() -> void:
+	Input.set_custom_mouse_cursor(null, Input.CURSOR_POINTING_HAND)
+	Input.set_custom_mouse_cursor(null, Input.CURSOR_ARROW)
+
 
 # Receive raw inputs. Set input mode to mouse if used
 func _input(event: InputEvent) -> void:
