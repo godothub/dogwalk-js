@@ -19,9 +19,7 @@ var dof : bool = true:
 		return dof
 	set(value):
 		dof = value
-		(
-			func(): Context.camera.camera3D.attributes.dof_blur_near_enabled = dof
-		).call_deferred()
+		apply_dof_deferred.call_deferred()
 var ss_aa : bool = true:
 	get():
 		return ss_aa
@@ -99,6 +97,10 @@ func _ready() -> void:
 	set_ui_scale_based_on_resolution(get_tree().root.content_scale_size)
 	
 	load_settings()
+
+func apply_dof_deferred() -> void:
+	if Context.camera and Context.camera.camera3D:
+		Context.camera.camera3D.attributes.dof_blur_near_enabled = dof
 
 func init_settings(category : String = ""):
 	if category == "":
@@ -227,18 +229,22 @@ func window_mode_store(mode_name: String) -> void:
 	Settings.save_settings()
 
 func shadow_quality_apply(mode_name: String) -> void:
+	if not get_tree().current_scene:
+		return
 	var sun = get_tree().current_scene.find_child("Sun")
 	match mode_name:
 		"LOW":
 			RenderingServer.directional_shadow_atlas_set_size(2048, false)
 			RenderingServer.directional_soft_shadow_filter_set_quality(RenderingServer.ShadowQuality.SHADOW_QUALITY_SOFT_VERY_LOW)
 			get_viewport().positional_shadow_atlas_size = 0
-			sun.directional_shadow_mode = DirectionalLight3D.ShadowMode.SHADOW_ORTHOGONAL
+			if sun:
+				sun.directional_shadow_mode = DirectionalLight3D.ShadowMode.SHADOW_ORTHOGONAL
 		"DEFAULT":
 			RenderingServer.directional_shadow_atlas_set_size(4096, true)
 			RenderingServer.directional_soft_shadow_filter_set_quality(RenderingServer.ShadowQuality.SHADOW_QUALITY_SOFT_LOW)
 			get_viewport().positional_shadow_atlas_size = 4096
-			sun.directional_shadow_mode = DirectionalLight3D.ShadowMode.SHADOW_PARALLEL_2_SPLITS
+			if sun:
+				sun.directional_shadow_mode = DirectionalLight3D.ShadowMode.SHADOW_PARALLEL_2_SPLITS
 
 func shadow_quality_store(mode_name: String) -> void:
 	config.set_value("Graphics", "shadow_quality", mode_name)
