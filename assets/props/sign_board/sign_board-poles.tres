@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://7d6clb6hrtws"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://7d6clb6hrtws"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_376s4"]
 [ext_resource type="Texture2D" uid="uid://dl6282ptd6hsq" path="res://assets/props/sign_board/textures/sign_board-albedo.png" id="2_376s4"]
@@ -22,13 +22,13 @@ shader_parameter/normal_use_uv2 = false
 shader_parameter/albedo_texture_size = Vector2i(2048, 2048)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.93695
+shader_parameter/roughness = 0.9369497
 shader_parameter/metallic = 0.0
-shader_parameter/wear_strength = 0.226415
+shader_parameter/wear_strength = 0.2264150977134705
 shader_parameter/wear_start = 0.77
 shader_parameter/wear_end = 1.0
 shader_parameter/wear_distortion_scale = 100.0
-shader_parameter/wear_distortion_strength = 0.02
+shader_parameter/wear_distortion_strength = 0.02000001
 shader_parameter/emission_strength = 0.0
 shader_parameter/emission_color = Color(1, 1, 1, 1)
 shader_parameter/displacement_strength = 0.0

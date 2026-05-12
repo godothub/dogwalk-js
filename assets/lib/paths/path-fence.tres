@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://cj5720ci27ath"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cj5720ci27ath"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_dc27l"]
 [ext_resource type="Texture2D" uid="uid://r0x3xt8le0f5" path="res://assets/lib/textures/path_1_albedo.png" id="2_dc27l"]

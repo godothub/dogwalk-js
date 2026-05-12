@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://c6x4qbdkhtknt"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c6x4qbdkhtknt"]
 
 [ext_resource type="Shader" uid="uid://dj6frawgwo5ry" path="res://source/shaders/paper-interface.gdshader" id="1_fh8de"]
 [ext_resource type="Texture2D" uid="uid://chll3vouivlih" path="res://assets/props/emote_bubble/doom_3.png" id="2_fh8de"]

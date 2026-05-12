@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://bc6l26n62lu4f"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bc6l26n62lu4f"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_fw3n4"]
 [ext_resource type="Texture2D" uid="uid://btes4r7o6urk2" path="res://assets/textures/snow_gen_albedo-01.png" id="2_ksfsc"]
@@ -22,7 +22,7 @@ shader_parameter/normal_use_uv2 = false
 shader_parameter/albedo_texture_size = Vector2i(2048, 2048)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.887013
+shader_parameter/roughness = 0.88701296
 shader_parameter/metallic = 0.0
 shader_parameter/wear_strength = 0.0
 shader_parameter/wear_start = 0.0

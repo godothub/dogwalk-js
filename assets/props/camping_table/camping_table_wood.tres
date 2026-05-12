@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://b27r5w0f3svej"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b27r5w0f3svej"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_irs4c"]
 [ext_resource type="Texture2D" uid="uid://yy8byvp8s3mi" path="res://assets/props/camping_table/textures/camping_table-albedo.png" id="2_beo1e"]

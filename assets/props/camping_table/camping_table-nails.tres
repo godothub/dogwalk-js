@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://n3v37jvdyjv0"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://n3v37jvdyjv0"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_pek5i"]
 [ext_resource type="Texture2D" uid="uid://jmsojyuo7l1e" path="res://assets/textures/paper_rough_medium-normal.png" id="2_8ma4s"]
@@ -11,7 +11,7 @@ shader_parameter/flip_normals = false
 shader_parameter/depth_blend = false
 shader_parameter/paper_color = Color(1, 1, 1, 1)
 shader_parameter/backface_color = false
-shader_parameter/albedo_color = Color(0.0602638, 0.200767, 0.239716, 1)
+shader_parameter/albedo_color = Color(0.06026381, 0.20076749, 0.23971623, 1)
 shader_parameter/edge_use_alpha = true
 shader_parameter/normal_texture = ExtResource("2_8ma4s")
 shader_parameter/normal_strength = 0.5

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://cj4s5m5qc54pr"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cj4s5m5qc54pr"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_ycqcd"]
 [ext_resource type="Texture2D" uid="uid://jmsojyuo7l1e" path="res://assets/textures/paper_rough_medium-normal.png" id="2_allbj"]
@@ -16,14 +16,14 @@ shader_parameter/albedo_color = Color(1, 1, 1, 1)
 shader_parameter/albedo_texture = ExtResource("2_cem8d")
 shader_parameter/edge_use_alpha = true
 shader_parameter/normal_texture = ExtResource("2_allbj")
-shader_parameter/normal_strength = 0.2
+shader_parameter/normal_strength = 0.20000002
 shader_parameter/invert_normal = false
 shader_parameter/normal_use_uv2 = false
-shader_parameter/albedo_texture_size = Vector2i(1024, 1024)
+shader_parameter/albedo_texture_size = Vector2i(128, 128)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.846154
-shader_parameter/metallic = 0.41453
+shader_parameter/roughness = 0.8461539
+shader_parameter/metallic = 0.41452992
 shader_parameter/wear_strength = 0.0
 shader_parameter/wear_start = 0.0
 shader_parameter/wear_end = 1.0

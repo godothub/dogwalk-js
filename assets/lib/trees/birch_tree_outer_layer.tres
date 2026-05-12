@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://bxx7q4pykqpx7"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bxx7q4pykqpx7"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_d4uia"]
 [ext_resource type="Texture2D" uid="uid://byknl4ip7vewi" path="res://assets/lib/textures/birch_tree_albedo_01.png" id="2_2kuyh"]
@@ -27,11 +27,11 @@ shader_parameter/roughness = 1.0
 shader_parameter/roughness_texture = ExtResource("3_e6w4q")
 shader_parameter/metallic = 0.0
 shader_parameter/metallic_texture = ExtResource("3_e6w4q")
-shader_parameter/wear_strength = 0.61794
+shader_parameter/wear_strength = 0.6179402
 shader_parameter/wear_start = 0.37
 shader_parameter/wear_end = 1.0
 shader_parameter/wear_distortion_scale = 100.0
-shader_parameter/wear_distortion_strength = 0.18
+shader_parameter/wear_distortion_strength = 0.18000007
 shader_parameter/emission_strength = 0.0
 shader_parameter/emission_color = Color(1, 1, 1, 1)
 shader_parameter/displacement_strength = 0.0

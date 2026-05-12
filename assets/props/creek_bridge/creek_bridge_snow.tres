@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://cvdeibtri4nrs"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cvdeibtri4nrs"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_6d744"]
 [ext_resource type="Texture2D" uid="uid://btes4r7o6urk2" path="res://assets/textures/snow_gen_albedo-01.png" id="2_6d744"]

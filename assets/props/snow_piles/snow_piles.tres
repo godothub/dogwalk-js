@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://cfkxmnulndfmq"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cfkxmnulndfmq"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_3iwlm"]
 [ext_resource type="Texture2D" uid="uid://eibvdnf7dfmp" path="res://assets/textures/snow_edge_plateaus-albedo.png" id="2_3iwlm"]

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://chqxohqunyg77"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://chqxohqunyg77"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_ukobq"]
 [ext_resource type="Texture2D" uid="uid://cs4cf7ecdvyao" path="res://assets/lib/textures/path_2_albedo.png" id="2_78jpq"]
@@ -20,7 +20,7 @@ shader_parameter/normal_use_uv2 = false
 shader_parameter/albedo_texture_size = Vector2i(4096, 4096)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.9
+shader_parameter/roughness = 0.90000004
 shader_parameter/metallic = 0.0
 shader_parameter/wear_strength = 0.0
 shader_parameter/wear_start = 0.0

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://bwp0mtgmmjxy3"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bwp0mtgmmjxy3"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_cujho"]
 [ext_resource type="Texture2D" uid="uid://7ykq0qmubwm3" path="res://assets/lib/textures/reeds_albedo.png" id="2_cujho"]
@@ -11,13 +11,13 @@ shader = ExtResource("1_cujho")
 shader_parameter/fake_depth = true
 shader_parameter/flip_normals = false
 shader_parameter/depth_blend = false
-shader_parameter/paper_color = Color(0.921566, 0.921566, 0.88791, 1)
+shader_parameter/paper_color = Color(0.9215659, 0.9215659, 0.88791025, 1)
 shader_parameter/backface_color = false
 shader_parameter/albedo_color = Color(1, 1, 1, 1)
 shader_parameter/albedo_texture = ExtResource("2_cujho")
 shader_parameter/edge_use_alpha = true
 shader_parameter/normal_texture = ExtResource("4_losbj")
-shader_parameter/normal_strength = 0.01
+shader_parameter/normal_strength = 0.00999999977648258
 shader_parameter/invert_normal = false
 shader_parameter/normal_use_uv2 = false
 shader_parameter/albedo_texture_size = Vector2i(4096, 4096)

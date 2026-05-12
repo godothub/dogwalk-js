@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://dajthsxjedhya"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dajthsxjedhya"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_joda4"]
 [ext_resource type="Texture2D" uid="uid://cnc3qr31ie7sw" path="res://assets/props/traffic_cone/textures/traffic_cone_albedo.png" id="2_cy475"]
@@ -22,7 +22,7 @@ shader_parameter/normal_use_uv2 = false
 shader_parameter/albedo_texture_size = Vector2i(1024, 1024)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.874172
+shader_parameter/roughness = 0.8741722
 shader_parameter/metallic = 0.0
 shader_parameter/wear_strength = 0.0
 shader_parameter/wear_start = 0.0

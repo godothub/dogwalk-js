@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://ebhgxjky6ibx"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ebhgxjky6ibx"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_nt3wf"]
 [ext_resource type="Texture2D" uid="uid://byn3ov8kqnecs" path="res://assets/props/creek_bridge/textures/creek_bridge-albedo.png" id="2_nt3wf"]

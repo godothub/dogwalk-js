@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://hsltotnx5d2o"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://hsltotnx5d2o"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_nydnc"]
 [ext_resource type="Texture2D" uid="uid://dhtv7tm845h1f" path="res://assets/lib/textures/pine_cuts_atlas_albedo_01.png" id="2_nydnc"]
@@ -11,7 +11,7 @@ shader = ExtResource("1_nydnc")
 shader_parameter/fake_depth = true
 shader_parameter/flip_normals = false
 shader_parameter/depth_blend = true
-shader_parameter/paper_color = Color(0.768291, 0.814835, 0.736014, 1)
+shader_parameter/paper_color = Color(0.5481292, 0.60828644, 0.50534195, 1)
 shader_parameter/backface_color = false
 shader_parameter/albedo_color = Color(1, 1, 1, 1)
 shader_parameter/albedo_texture = ExtResource("2_nydnc")

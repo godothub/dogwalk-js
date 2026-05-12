@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://djn5qt0mpxcb5"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://djn5qt0mpxcb5"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_5lt5r"]
 [ext_resource type="Texture2D" uid="uid://d3ddepj6rn2ug" path="res://assets/textures/paper_crumpled_albedo.png" id="2_5ueaw"]

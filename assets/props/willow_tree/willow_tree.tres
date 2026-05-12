@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://d1theglddfb5m"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://d1theglddfb5m"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_a7fw4"]
 [ext_resource type="Texture2D" uid="uid://dod6sr1b08bxv" path="res://assets/props/willow_tree/textures/willow_tree-albedo.png" id="2_a7fw4"]

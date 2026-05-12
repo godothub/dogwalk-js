@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://b11r36us8ecf"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b11r36us8ecf"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_h2kti"]
 [ext_resource type="Texture2D" uid="uid://2tbdb42qwwxh" path="res://assets/lib/textures/boulders_cut_albedo.png" id="2_h2kti"]

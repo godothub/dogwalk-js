@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://m5mpqw1d7n1l"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://m5mpqw1d7n1l"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_vyjij"]
 [ext_resource type="Texture2D" uid="uid://bogs4ocle4ux8" path="res://assets/lib/textures/bushlets_blue_fan_albedo.png" id="2_vyjij"]
@@ -10,7 +10,7 @@ shader = ExtResource("1_vyjij")
 shader_parameter/fake_depth = true
 shader_parameter/flip_normals = false
 shader_parameter/depth_blend = false
-shader_parameter/paper_color = Color(0.8, 0.676343, 0.571722, 1)
+shader_parameter/paper_color = Color(0.8, 0.67634296, 0.57172215, 1)
 shader_parameter/backface_color = false
 shader_parameter/albedo_color = Color(1, 1, 1, 1)
 shader_parameter/albedo_texture = ExtResource("2_vyjij")

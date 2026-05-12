@@ -1,4 +1,4 @@
-[gd_resource type="AnimationLibrary" load_steps=94 format=3 uid="uid://bqux4xtj8geuw"]
+[gd_resource type="AnimationLibrary" format=3 uid="uid://bqux4xtj8geuw"]
 
 [ext_resource type="Animation" uid="uid://duemkju8lr0ho" path="res://animations/world/LOOP-pinda-crying/LOOP-pinda-crying.tres" id="1_nosu5"]
 [ext_resource type="Animation" uid="uid://bkyxlqta6qb3x" path="res://animations/world/LOOP-pinda-fallen/LOOP-pinda-fallen.tres" id="2_ydru2"]
@@ -9,6 +9,7 @@
 [ext_resource type="Animation" uid="uid://dfo3j3bwinsux" path="res://animations/world/LOOP-pinda-idle_unhappy/LOOP-pinda-idle_unhappy.tres" id="8_c4ct3"]
 [ext_resource type="Animation" uid="uid://bdgxup7wjp83o" path="res://animations/world/LOOP-pinda-moping/LOOP-pinda-moping.tres" id="9_2qp14"]
 [ext_resource type="Animation" uid="uid://c4b7n7jlwns51" path="res://animations/world/LOOP-pinda-run_dragged/LOOP-pinda-run_dragged.tres" id="11_7g1me"]
+[ext_resource type="Animation" uid="uid://dt2cpracu1ey7" path="res://animations/gate/ACTN-pinda-gate_spot01.tres" id="11_ttek1"]
 [ext_resource type="Animation" uid="uid://deurcefb4mw46" path="res://animations/world/LOOP-pinda-run_dragged_tired/LOOP-pinda-run_dragged_tired.tres" id="12_0nswt"]
 [ext_resource type="Animation" uid="uid://cdgub6u2gq0ut" path="res://animations/world/LOOP-pinda-run_tired/LOOP-Pinda-run_tired.tres" id="13_oacje"]
 [ext_resource type="Animation" uid="uid://dminddcvd7h8u" path="res://animations/world/LOOP-pinda-stuck_snow/LOOP-pinda-stuck_snow.tres" id="14_3dbmm"]
@@ -75,7 +76,6 @@
 [ext_resource type="Animation" uid="uid://bgbr8am3di4jv" path="res://animations/gate/ACTN-pinda-through_fence_fallen/ACTN-pinda-though_fence_fallen.tres" id="76_ngf2d"]
 [ext_resource type="Animation" uid="uid://ckmqh08qyha3p" path="res://animations/pond/CINE-pinda-pulling_cone/CINE-pinda-pulling_cone.tres" id="77_3n3p0"]
 [ext_resource type="Animation" uid="uid://7euuksa012iq" path="res://animations/pond/CINE-pinda-grab_cone/CINE-pinda-grab_cone.tres" id="78_gqr35"]
-[ext_resource type="Animation" uid="uid://bhgt328cf3h55" path="res://animations/gate/ACTN-pinda-gate_spot01/ACTN-pinda-gate_spot01.tres" id="78_rwxla"]
 [ext_resource type="Animation" uid="uid://x8as5wlt2r5m" path="res://animations/pond/ACTN-pinda-pickup_cone/ACTN-pinda-pickup_cone.tres" id="79_rwxla"]
 [ext_resource type="Animation" uid="uid://c6y3kuocr2hkx" path="res://animations/world/LOOP-pinda-idle_happy/LOOP-pinda-idle_happy.tres" id="80_e38b3"]
 [ext_resource type="Animation" uid="uid://cad6j7jcuq28i" path="res://animations/gate/CINE-pinda-celebrate_gate/CINE-pinda-celebrate_gate.tres" id="80_rwxla"]
@@ -107,7 +107,7 @@ _data = {
 &"ACTN-pinda-dug_out": ExtResource("33_lxo0o"),
 &"ACTN-pinda-fall_flat": ExtResource("34_85xhv"),
 &"ACTN-pinda-fall_snow": ExtResource("35_2lsiw"),
-&"ACTN-pinda-gate_spot01": ExtResource("78_rwxla"),
+&"ACTN-pinda-gate_spot01": ExtResource("11_ttek1"),
 &"ACTN-pinda-gate_spot03": ExtResource("71_qgwjv"),
 &"ACTN-pinda-getting_up": ExtResource("36_yw0lf"),
 &"ACTN-pinda-pick_up": ExtResource("45_yxvyp"),

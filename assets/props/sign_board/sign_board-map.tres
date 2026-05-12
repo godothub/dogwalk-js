@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://cat47lnkv0nw8"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cat47lnkv0nw8"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_qxu55"]
 [ext_resource type="Texture2D" uid="uid://dl6282ptd6hsq" path="res://assets/props/sign_board/textures/sign_board-albedo.png" id="2_cfem8"]

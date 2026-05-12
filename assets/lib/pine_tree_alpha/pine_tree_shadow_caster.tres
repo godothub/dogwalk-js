@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dgpxx27cmfjkd"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dgpxx27cmfjkd"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_eb7nd"]
 [ext_resource type="Texture2D" uid="uid://c2p5eltxeh583" path="res://assets/lib/textures/pine_trees_alpha.png" id="2_jyn74"]

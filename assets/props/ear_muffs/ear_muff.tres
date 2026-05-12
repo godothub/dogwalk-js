@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://bsisq0wevxovn"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bsisq0wevxovn"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_y5aa5"]
 [ext_resource type="Texture2D" uid="uid://el5hrp0qalgl" path="res://assets/props/ear_muffs/textures/earmuff-albedo.png" id="2_y5aa5"]

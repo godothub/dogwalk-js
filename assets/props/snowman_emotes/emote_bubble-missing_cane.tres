@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://wfmo8l4ngc0y"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://wfmo8l4ngc0y"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_yv6m8"]
 [ext_resource type="Texture2D" uid="uid://dfekqvcyvlwke" path="res://assets/props/snowman_emotes/textures/missing_cane/missing_cane_2.png" id="2_yv6m8"]
@@ -20,7 +20,7 @@ shader_parameter/normal_use_uv2 = false
 shader_parameter/albedo_texture_size = Vector2i(843, 843)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.929091
+shader_parameter/roughness = 0.9290909
 shader_parameter/metallic = 0.0
 shader_parameter/wear_strength = 0.0
 shader_parameter/wear_start = 0.0

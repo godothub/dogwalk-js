@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://t8dqv258flvq"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://t8dqv258flvq"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_do6n5"]
 [ext_resource type="Texture2D" uid="uid://bqinovsjn082j" path="res://assets/lib/textures/path_faint_albedo.png" id="2_do6n5"]

@@ -1,4 +1,4 @@
-[gd_resource type="AnimationLibrary" load_steps=33 format=3 uid="uid://bcic6cq71l4n3"]
+[gd_resource type="AnimationLibrary" format=3 uid="uid://bcic6cq71l4n3"]
 
 [ext_resource type="Animation" uid="uid://dpcbktsicgdr1" path="res://animations/world/LOOP-chocomel-idle_sitting/LOOP-chocomel-idle_sitting.tres" id="1_rxmk8"]
 [ext_resource type="Animation" uid="uid://cilecpx8ip78m" path="res://animations/world/POSE-chocomel-turn_left/POSE-chocomel-turn_left.tres" id="2_u5mgh"]

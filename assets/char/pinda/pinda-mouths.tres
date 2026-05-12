@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://c5ubpoy3hdq2d"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c5ubpoy3hdq2d"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_k8h3r"]
 [ext_resource type="Texture2D" uid="uid://c0ikbh6xfedu2" path="res://assets/char/pinda/textures/pinda_mouths-albedo.png" id="2_k8h3r"]
@@ -27,7 +27,7 @@ shader_parameter/wear_start = 0.0
 shader_parameter/wear_end = 1.0
 shader_parameter/wear_distortion_scale = 100.0
 shader_parameter/wear_distortion_strength = 0.5
-shader_parameter/emission_strength = 0.4
+shader_parameter/emission_strength = 0.0
 shader_parameter/emission_texture = ExtResource("2_k8h3r")
 shader_parameter/emission_color = Color(1, 1, 1, 1)
 shader_parameter/displacement_strength = 0.0

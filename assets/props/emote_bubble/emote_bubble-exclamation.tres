@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cbimf76l7r86n"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cbimf76l7r86n"]
 
 [ext_resource type="Shader" uid="uid://dj6frawgwo5ry" path="res://source/shaders/paper-interface.gdshader" id="1_x2cj8"]
 [ext_resource type="Texture2D" uid="uid://b4e2m6mu73wtw" path="res://assets/props/emote_bubble/exclamation.png" id="2_x2cj8"]

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://da3sk6m7vu35f"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://da3sk6m7vu35f"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_kyuov"]
 [ext_resource type="Texture2D" uid="uid://eibvdnf7dfmp" path="res://assets/textures/snow_edge_plateaus-albedo.png" id="2_bw5c4"]
@@ -25,9 +25,9 @@ shader_parameter/specular = 0.5
 shader_parameter/roughness = 0.5
 shader_parameter/metallic = 0.0
 shader_parameter/wear_strength = 0.0
-shader_parameter/wear_start = 0.23
+shader_parameter/wear_start = 0.2300000041723251
 shader_parameter/wear_end = 1.0
-shader_parameter/wear_distortion_scale = 0.0100023
+shader_parameter/wear_distortion_scale = 0.01000228524208068
 shader_parameter/wear_distortion_strength = 1.0
 shader_parameter/emission_strength = 0.0
 shader_parameter/emission_color = Color(1, 1, 1, 1)

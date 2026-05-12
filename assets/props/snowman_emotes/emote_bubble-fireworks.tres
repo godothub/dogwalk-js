@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://c2uhi7pqavwf7"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c2uhi7pqavwf7"]
 
 [ext_resource type="Shader" uid="uid://dj6frawgwo5ry" path="res://source/shaders/paper-interface.gdshader" id="1_nqm6m"]
 [ext_resource type="Texture2D" uid="uid://cefjnfcmyf1bc" path="res://assets/props/snowman_emotes/textures/fireworks/fireworks_4.png" id="2_nqm6m"]
@@ -16,7 +16,7 @@ shader_parameter/invert_normal = false
 shader_parameter/albedo_texture_size = Vector2i(843, 843)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.929091
+shader_parameter/roughness = 0.9290909
 shader_parameter/metallic = 0.0
 shader_parameter/heightmap_scale = 0.5
 shader_parameter/heightmap_min_layers = 4

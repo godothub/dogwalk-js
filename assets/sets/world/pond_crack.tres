@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cerfmy4fld0t"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cerfmy4fld0t"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_2grsd"]
 [ext_resource type="Texture2D" uid="uid://daonqxxlfel8k" path="res://assets/textures/ice_crack.png" id="2_152ej"]

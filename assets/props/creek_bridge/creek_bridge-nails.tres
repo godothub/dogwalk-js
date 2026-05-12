@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://ck635r0qqdcna"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ck635r0qqdcna"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_sni64"]
 [ext_resource type="Texture2D" uid="uid://byn3ov8kqnecs" path="res://assets/props/creek_bridge/textures/creek_bridge-albedo.png" id="2_4labi"]
@@ -22,7 +22,7 @@ shader_parameter/normal_use_uv2 = true
 shader_parameter/albedo_texture_size = Vector2i(4096, 4096)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.837398
+shader_parameter/roughness = 0.8373984
 shader_parameter/metallic = 0.0
 shader_parameter/wear_strength = 0.0
 shader_parameter/wear_start = 0.0

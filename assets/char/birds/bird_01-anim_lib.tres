@@ -1,4 +1,4 @@
-[gd_resource type="AnimationLibrary" load_steps=11 format=3 uid="uid://bqgbqk4x78avw"]
+[gd_resource type="AnimationLibrary" format=3 uid="uid://bqgbqk4x78avw"]
 
 [ext_resource type="Animation" uid="uid://cr1u7weq4ltgd" path="res://animations/world/ACTN-bird-fly01/ACTN-bird-fly01.tres" id="1_4kir6"]
 [ext_resource type="Animation" uid="uid://cx4cpx40t2wq8" path="res://animations/world/ACTN-bird-fly02/ACTN-bird-fly02.tres" id="2_oggnm"]

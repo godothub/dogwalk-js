@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://cftqfrtus2nb3"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cftqfrtus2nb3"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_71r1x"]
 [ext_resource type="Texture2D" uid="uid://bk62ahcclml1n" path="res://assets/lib/textures/birch_branches_albedo_01.png" id="2_71r1x"]

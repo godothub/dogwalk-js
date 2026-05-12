@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://dqljyu0syr04h"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dqljyu0syr04h"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_glaak"]
 [ext_resource type="Texture2D" uid="uid://cegmvf36ei02v" path="res://assets/lib/textures/creek-snow_edge.png" id="2_mbkr6"]

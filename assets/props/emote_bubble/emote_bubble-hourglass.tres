@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dq3qhxreanhhw"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dq3qhxreanhhw"]
 
 [ext_resource type="Shader" uid="uid://dj6frawgwo5ry" path="res://source/shaders/paper-interface.gdshader" id="1_42r51"]
 [ext_resource type="Texture2D" uid="uid://b7c46j3hi5ylu" path="res://assets/props/emote_bubble/hourglass.png" id="2_42r51"]

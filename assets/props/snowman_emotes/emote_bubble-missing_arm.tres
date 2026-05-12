@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://du7yw70k7ynry"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://du7yw70k7ynry"]
 
 [ext_resource type="Shader" uid="uid://dj6frawgwo5ry" path="res://source/shaders/paper-interface.gdshader" id="1_s6kgj"]
 [ext_resource type="Texture2D" uid="uid://dd8tlbbdw5nme" path="res://assets/props/snowman_emotes/textures/missing_arm/missing_arm_1.png" id="2_okuv7"]
@@ -16,7 +16,7 @@ shader_parameter/invert_normal = false
 shader_parameter/albedo_texture_size = Vector2i(843, 843)
 shader_parameter/point_size = 0.0
 shader_parameter/specular = 0.5
-shader_parameter/roughness = 0.929091
+shader_parameter/roughness = 0.9290909
 shader_parameter/metallic = 0.0
 shader_parameter/heightmap_scale = 0.5
 shader_parameter/heightmap_min_layers = 4

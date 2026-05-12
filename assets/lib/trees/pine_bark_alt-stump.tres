@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://dgkic5mccwrpe"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dgkic5mccwrpe"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_4cxtn"]
 [ext_resource type="Texture2D" uid="uid://dlehpvfgoa2th" path="res://assets/lib/textures/pine_bark_alt_albedo_01.png" id="2_2d2rj"]

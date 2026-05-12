@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bficcxynn7pb0"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bficcxynn7pb0"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_coaca"]
 [ext_resource type="Texture2D" uid="uid://ygg4ta5ecg3r" path="res://assets/lib/textures/tree_stumps_albedo_01.png" id="2_wh7no"]
@@ -27,9 +27,9 @@ shader_parameter/wear_start = 0.0
 shader_parameter/wear_end = 1.0
 shader_parameter/wear_distortion_scale = 100.0
 shader_parameter/wear_distortion_strength = 0.5
-shader_parameter/emission_strength = 0.05
+shader_parameter/emission_strength = 0.0
 shader_parameter/emission_texture = ExtResource("2_wh7no")
-shader_parameter/emission_color = Color(0.918847, 0.753758, 0.406618, 1)
+shader_parameter/emission_color = Color(1, 1, 1, 1)
 shader_parameter/displacement_strength = 0.0
 shader_parameter/displacemnent_scale = 1.0
 shader_parameter/heightmap_scale = 0.5

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://c64nwhljlm8px"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c64nwhljlm8px"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_r551m"]
 [ext_resource type="Texture2D" uid="uid://gta235udxef3" path="res://assets/props/bug_hotel/textures/bug_hotel_albedo.png" id="2_q2gx0"]
@@ -10,7 +10,7 @@ shader = ExtResource("1_r551m")
 shader_parameter/fake_depth = true
 shader_parameter/flip_normals = false
 shader_parameter/depth_blend = true
-shader_parameter/paper_color = Color(0.538431, 0.467367, 0.408813, 1)
+shader_parameter/paper_color = Color(0.5384305, 0.4673667, 0.40881318, 1)
 shader_parameter/backface_color = false
 shader_parameter/albedo_color = Color(1, 1, 1, 1)
 shader_parameter/albedo_texture = ExtResource("2_q2gx0")

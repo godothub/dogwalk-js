@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bqto3dseqkws5"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bqto3dseqkws5"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_5wwe2"]
 [ext_resource type="Texture2D" uid="uid://dl6282ptd6hsq" path="res://assets/props/sign_board/textures/sign_board-albedo.png" id="2_mj1kg"]
@@ -11,7 +11,7 @@ shader_parameter/flip_normals = false
 shader_parameter/depth_blend = false
 shader_parameter/paper_color = Color(1, 1, 1, 1)
 shader_parameter/backface_color = false
-shader_parameter/albedo_color = Color(0.923764, 1, 0.87294, 1)
+shader_parameter/albedo_color = Color(0.9237642, 1, 0.8729403, 1)
 shader_parameter/albedo_texture = ExtResource("2_mj1kg")
 shader_parameter/edge_use_alpha = true
 shader_parameter/normal_strength = 1.0

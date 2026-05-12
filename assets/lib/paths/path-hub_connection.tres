@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://873tqb76lyhy"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://873tqb76lyhy"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_fmnvt"]
 [ext_resource type="Texture2D" uid="uid://g1pl4jso36ff" path="res://assets/lib/textures/path_2_connection.png" id="2_fmnvt"]

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://beouh0tt7fxr0"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://beouh0tt7fxr0"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_avchn"]
 [ext_resource type="Texture2D" uid="uid://ckn487o60j6xn" path="res://assets/lib/fence_parts/fence_nails/textures/fence_nails-albedo.png" id="2_tymi0"]

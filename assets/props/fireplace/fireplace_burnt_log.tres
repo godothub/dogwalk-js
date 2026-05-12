@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://mhhwk1jte34j"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://mhhwk1jte34j"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_qqigf"]
 [ext_resource type="Texture2D" uid="uid://cr0knr2q8b0eq" path="res://assets/props/fireplace/textures/camp_fire_wood.png" id="2_lnbhu"]

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://6i75wxp0ep65"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://6i75wxp0ep65"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_mdgth"]
 [ext_resource type="Texture2D" uid="uid://c1ersrprcbgq4" path="res://assets/props/pinda_camera/textures/pinda_camera-albedo.png" id="2_qcy2k"]

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://cmj7kbc6tf2n8"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cmj7kbc6tf2n8"]
 
 [ext_resource type="Shader" uid="uid://dferjeijr7g3r" path="res://source/shaders/paper-default.gdshader" id="1_6jhhk"]
 [ext_resource type="Texture2D" uid="uid://6p8h6hltk24s" path="res://assets/lib/textures/cliff_albedo_02.png" id="2_j3gmv"]
@@ -28,9 +28,9 @@ shader_parameter/roughness_texture = ExtResource("3_5cktx")
 shader_parameter/metallic = 0.0
 shader_parameter/metallic_texture = ExtResource("3_5cktx")
 shader_parameter/wear_strength = 1.0
-shader_parameter/wear_start = 0.23
+shader_parameter/wear_start = 0.2300000041723251
 shader_parameter/wear_end = 1.0
-shader_parameter/wear_distortion_scale = 0.0100023
+shader_parameter/wear_distortion_scale = 0.01000228524208068
 shader_parameter/wear_distortion_strength = 1.0
 shader_parameter/emission_strength = 0.0
 shader_parameter/emission_color = Color(1, 1, 1, 1)
