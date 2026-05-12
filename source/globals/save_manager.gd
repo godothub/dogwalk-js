@@ -7,6 +7,8 @@ var can_save : bool = true:
 		if Context.sequence_gate:
 			if Context.sequence_gate.active_sequence:
 				return false
+		if not Context.pinda:
+			return false
 		if Context.pinda.current_character_state == Context.pinda.character_states.INTERACTION:
 			return false
 		return true
