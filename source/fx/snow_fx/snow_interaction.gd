@@ -7,7 +7,6 @@ extends Node3D
 var active := false
 
 var terrain_detector : TerrainDetector
-var raycast : RayCast3D
 
 var particle_snow_terrain_spawn_rate := 100.
 
@@ -16,8 +15,6 @@ func _ready() -> void:
 	terrain_detector = entity.terrain_detector
 	
 	terrain_detector.connect("terrain_state_changed", update_snow_interaction)
-	
-	raycast = RayCast3D.new()
 	
 func _process(delta: float) -> void:
 	process_particles(delta)
