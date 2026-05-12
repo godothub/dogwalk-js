@@ -11,7 +11,7 @@ class_name CameraMagnetZone
 
 @onready var radius : float = collision_shape.shape.radius
 
-signal zone_disabled()
+signal zone_disabled(area_node: CameraMagnetZone)
 signal zone_enabled()
 
 @export var disabled : bool:
@@ -20,7 +20,7 @@ signal zone_enabled()
 	set(value):
 		if value != collision_shape.disabled:
 			if value:
-				zone_disabled.emit()
+				zone_disabled.emit(self)
 				active = false
 			else:
 				zone_enabled.emit()
